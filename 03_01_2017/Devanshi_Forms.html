@@ -1,0 +1,81 @@
+<!--Main DCOTYPE of the web page-->
+<!DOCTYPE html>
+
+<!--The default HTML language to be english -->
+<html lang="en">
+
+<!--Head of the Web pages -->
+    <head>
+        <title>Form</title>
+    </head>
+
+<!-- Body of the web page-->
+    <body>
+
+        <!-- Main article for forms-->
+        <article>
+
+            <!-- page header -->
+            <header>
+                <h1>Welcome to my website!</h1>
+            </header>
+
+            <!--Main body of the page -->
+            <section>
+                <form name="newLicenseForm">
+                    <!--First Name-->
+                    <div>
+                        <label for ="firstName">Applicants first name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name"/>
+                    </div>
+                    <br/>
+
+                    <!--Last Name-->
+                    <div>
+                        <label for ="lastName">Applicants last name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name"/>
+                    </div>
+                    <br/>
+                    <!--Phone Number-->
+                    <div>
+                        <label for ="phoneNumber">Applicants Phone Number</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number"/>
+                    </div>
+                    <br/>
+                    <!--Gender-->
+                    <div>
+                        <label for="gender">Applicants Gender</label>
+
+                            <div id="gender">
+                                <!--Male-->
+                                <label for="male">Male</label>
+                                <input type="radio" id="male" name="gender" value="gender"/>
+
+                                <!--Female-->
+                                <label for="female">Female</label>
+                                <input type="radio" id="female" name="gender" value="gender"/>
+                            </div>
+                    </div>
+                    <br/>
+
+                    <!--Senior Citizen-->
+                    <div>
+                        <label for="seniorCitizen">Is the applicant Senior Citizen</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorCitizen"/>
+                    </div>
+                    <br/>
+
+                    <!--Submit buttons-->
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Cancel</button>
+                </form>
+            </section>
+
+            <!-- Footer of the page-->
+            <footer>
+                <h1>I am the footer</h1>
+            </footer>
+        </article>
+    </body>
+
+</html>
