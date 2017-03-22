@@ -1,0 +1,43 @@
+form{
+      border : 2px solid #000;
+      padding: 20px;
+      display: inline-block;
+      width: 300px;
+      text-align: left;
+
+}
+
+h1{
+    text-align:center;
+}
+
+ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+label,ul{
+        margin-top: 10px;
+}
+
+button[type="submit"]{
+
+     margin-top: 20px;
+     margin-right:2px;
+     border-color: #000;
+     float: right;
+ }
+
+ button[type="reset"]{
+
+     margin-top: 20px;
+     margin-right:2px;
+     border-color: #000;
+     float: right;
+ }
