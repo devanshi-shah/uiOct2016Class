@@ -1,10 +1,12 @@
 form{
+      display: block;
       border : 2px solid #000;
       padding: 20px;
-      display: inline-block;
       width: 300px;
       text-align: left;
-
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 140px;
 }
 
 h1{
@@ -18,26 +20,46 @@ ul{
 }
 
 ul li {
-    display: inline;
-    padding: 10px;
+    display: inline-block;
+    margin: 0px 10px;
 }
 
-label,ul{
-        margin-top: 10px;
+div{
+    margin: 10px 20px;
+    display: inline-block;
 }
 
+button{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 17px;
+    margin: 10px;
+}
 button[type="submit"]{
-
-     margin-top: 20px;
-     margin-right:2px;
-     border-color: #000;
-     float: right;
+    background: #41b70c;
  }
 
  button[type="reset"]{
-
-     margin-top: 20px;
-     margin-right:2px;
-     border-color: #000;
-     float: right;
+     background: #f71814;
  }
+
+#main-section{
+    position: relative;
+    top: -60px;
+    right: 95px;
+}
+
+#nav-heading{
+    position: absolute;
+    top: 0;
+    left: 550px;
+    background: #fff;
+}
+
+#main-heading{
+    position: fixed;
+    top: 0;
+    left: 550px;
+    background: #fff;
+}
