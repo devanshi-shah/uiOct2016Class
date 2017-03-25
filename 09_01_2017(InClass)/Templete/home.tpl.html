@@ -1,0 +1,155 @@
+<!--Main DOCTYPE of the web page-->
+<!Doctype html>
+
+<!--The default HTML language is english-->
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<!--head of the web page-->
+    <head>
+        <!--title- title of the web page-->
+        <title>Employee Form</title>
+
+        <!--style- here you can write the CSS styles on the HTML-->
+        <style></style>
+
+        <!--script- here you can write the javascript on HTML-->
+        <script></script>
+
+        <!--link- here you can add the links from the external sources-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>-->
+
+        <!--base- here you can specify the base URL of the web page-->
+        <base/>
+
+        <!--meta- is used to cover the information of the web page-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../Style/styles.css" rel="stylesheet"/>
+        <!--link- here you can add the links from the external sources-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+
+
+    </head>
+
+<!--body of the web page-->
+    <body>
+
+    <!--Main article for the forms-->
+        <article>
+
+            <!--page header-->
+             <header id="main-heading">
+                <h1>Employee Form</h1>
+             </header>
+
+            <section id="main-section">
+               <article>
+                    <header id="nav-heading">
+                        <!--Unordered list-->
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="/home">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="/aboutUs">About Us</a>
+                                </li>
+
+                                <li>
+                                    <a href="/contactUs">Contact Us</a>
+                                </li>
+
+                                <li>
+                                    <a href="/testimony">Testimony</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <!--main body of the page-->
+                    <section>
+
+                        <!--main form of th web page-->
+                        <form name="EmployeeForm";>
+
+                            <!--FirstName-->
+                            <div>
+                                <label for="firstName">First Name </label>
+                                <input type="text" id="firstName" name="firstName" placeholder="FirstName"/>
+                            </div>
+
+
+                            <!--LastName-->
+                            <div>
+                                <label for="lastName">Last Name </label>
+                                <input type="text" id="lastName" name="lastName" placeholder="LastName"/>
+                            </div>
+
+
+                            <!--Phone Number-->
+                            <div>
+                                <label for="phoneNumber"> Phone Number</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber"/>
+                            </div>
+
+
+                            <!--Employee Age-->
+                            <div>
+                                <label for="employeeAge">Are you 18 years or above</label>
+                                <input type="checkbox" id="employeeAge" name="employeeAge"/>
+                            </div>
+
+
+
+                            <!--Employee Gender-->
+                            <div>
+                                <label for="gender">Employee's Gender</label>
+                                <div id="gender">
+
+                                    <!--Male-->
+                                    <label for="male">Male</label>
+                                    <input type="radio" id="male" name="gender" value="gender"/>
+
+                                    <!--Female-->
+                                    <label for="female">Female</label>
+                                    <input type="radio" id="female" name="gender" value="gender"/>
+
+                                </div>
+                            </div>
+
+
+                            <!--Email Address-->
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="email address"/>
+                            </div>
+
+
+                            <!--Password-->
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" placeholder="password"/>
+                            </div>
+
+
+                            <div>
+                                <!--Submit-->
+                                <button type="submit" id="submit">Submit</button>
+
+                                <!--Clear or Reset-->
+                                <button type="reset" id="reset">Clear</button>
+                            </div>
+
+                        </form>
+                    </section>
+                    </footer></footer>
+                </article>
+            </section>
+            <!--footer of the web page-->
+            <footer>
+                I am the footer
+            </footer>
+
+        </article>
+
+    </body>
+</html>
